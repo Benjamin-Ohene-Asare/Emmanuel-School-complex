@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    
+}
+:root{
+    --whiteColor: #fff;
+    --blackColor: #000;
+    --yellowColor: #fda31b;
+
+}
+
+header{
+    position: relative;
+    padding: 10px 10%;
+    background: var(--whiteColor);
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+   
+}
+
+.header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.header nav ul li a{
+    color: var(--blackColor);
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
