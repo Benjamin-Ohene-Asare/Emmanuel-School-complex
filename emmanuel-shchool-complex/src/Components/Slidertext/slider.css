@@ -1,0 +1,28 @@
+:root{
+    --whiteColor: #fff;
+    --blackColor: #000;
+    --yellowColor: #fda31b;
+
+}
+
+.slidertextcontainer {
+    position: absolute;
+   top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        justify-content: center;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 10;  
+    color: var(--whiteColor);
+
+}
+
+.slidertextcontainer h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
